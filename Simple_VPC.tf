@@ -1,8 +1,3 @@
-provider "aws" {
-  access_key = "Your Access Key here"
-  secret_key = "Your Secret Access Key "
-  region     = "us-east-1"
-}
 
 # Create VPC
 resource "aws_vpc" "dev_vpc" {
